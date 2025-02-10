@@ -1,0 +1,326 @@
+{
+  "hero": {
+    "highlight": "Προγραμματιστής",
+    "text": "με εμπειρία σε σύγχρονες εφαρμογές & διεπαφές",
+    "button": "Επικοινωνήστε μαζί μου",
+    "secondaryButton": "Δείτε τις Υπηρεσίες",
+    "githubButton": "Δείτε το GitHub"
+  },
+  "nav": {
+    "search": "Αναζήτηση",
+    "cart": "Καλάθι",
+    "login": "Σύνδεση",
+    "theme": "Εναλλαγή θέματος",
+    "cartEmpty": "Το καλάθι σας είναι άδειο",
+    "menu": {
+      "home": "Αρχική",
+      "work": "Έργα",
+      "about": "Σχετικά",
+      "contact": "Επικοινωνία",
+      "projectsLabel": "Έργα",
+      "blog": {
+        "title": "Blog",
+        "latest": "Τελευταία Άρθρα",
+        "categories": "Κατηγορίες",
+        "archive": "Αρχείο",
+        "featured": {
+          "webdev": {
+            "title": "Σύγχρονη Ανάπτυξη Web",
+            "description": "Μάθετε για τις τελευταίες τάσεις και βέλτιστες πρακτικές στην ανάπτυξη web",
+            "link": "/blog/modern-web-development",
+            "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2069&auto=format&fit=crop"
+          },
+          "ai": {
+            "title": "AI στην Πράξη",
+            "description": "Πρακτικές εφαρμογές AI στη σύγχρονη ανάπτυξη λογισμικού",
+            "link": "/blog/ai-in-practice",
+            "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop"
+          },
+          "typescript": {
+            "title": "TypeScript σε Βάθος",
+            "description": "Προχωρημένα patterns και τεχνικές TypeScript για καλύτερο κώδικα",
+            "link": "/blog/typescript-deep-dive",
+            "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=2128&auto=format&fit=crop"
+          }
+        }
+      },
+      "pricingLabel": "Τιμολόγηση",
+      "projects": {
+        "algochurn": {
+          "title": "Algochurn",
+          "description": "Προετοιμαστείτε για τεχνικές συνεντεύξεις όπως ποτέ πριν."
+        },
+        "tailwind": {
+          "title": "Tailwind Master Kit",
+          "description": "Έτοιμα components με Tailwind css για το επόμενο project σας"
+        },
+        "moonbeam": {
+          "title": "Moonbeam",
+          "description": "Μη γράφετε από την αρχή ξανά. Από την ιδέα στο blog σε λεπτά."
+        },
+        "rogue": {
+          "title": "Rogue",
+          "description": "Απαντήστε σε κυβερνητικά RFPs, RFIs και RFQs 10x γρηγορότερα με AI"
+        }
+      },
+      "pricing": {
+        "hobby": "Χόμπι",
+        "individual": "Ατομικό",
+        "team": "Ομάδα",
+        "enterprise": "Επιχείρηση"
+      },
+      "switchLanguage": "Αλλαγή γλώσσας",
+      "menuDescription": "Πρόσβαση στις επιλογές πλοήγησης"
+    },
+    "switchLanguage": "Αλλαγή γλώσσας",
+    "menuDescription": "Πρόσβαση στις επιλογές πλοήγησης"
+  },
+  "notFound": {
+    "title": "Η Σελίδα δεν βρέθηκε",
+    "description": "Λυπούμαστε, δεν μπορέσαμε να βρούμε τη σελίδα που ψάχνετε. Παρακαλώ ελέγξτε το URL ή επιστρέψτε στην αρχική σελίδα.",
+    "backHome": "Επιστροφή στην Αρχική"
+  },
+  "error": {
+    "title": "Κάτι πήγε στραβά!",
+    "description": "Παρουσιάστηκε σφάλμα κατά την επεξεργασία του αιτήματός σας. Παρακαλώ δοκιμάστε ξανά αργότερα.",
+    "tryAgain": "Δοκιμάστε Ξανά"
+  },
+  "work": {
+    "title": "Οι υπηρεσίες μου",
+    "cards": {
+      "moreAboutMe": "Περισσότερα για εμένα",
+      "ai": {
+        "category": "Τεχνητή Νοημοσύνη",
+        "title": "Περισσότερες δυνατότητες με AI.",
+        "description": "Εξερευνώντας τα όρια της ενσωμάτωσης AI σε σύγχρονες web εφαρμογές, με έμφαση στην εμπειρία χρήστη και τις πρακτικές εφαρμογές."
+      },
+      "productivity": {
+        "category": "Παραγωγικότητα",
+        "title": "Βελτιώστε τη ροή εργασίας σας.",
+        "description": "Δημιουργία εργαλείων και εφαρμογών που απλοποιούν τις διαδικασίες και αυξάνουν την παραγωγικότητα στα περιβάλλοντα ανάπτυξης."
+      },
+      "product": {
+        "category": "Ανάπτυξη Προϊόντων",
+        "title": "Δημιουργώντας ψηφιακές εμπειρίες.",
+        "description": "Δημιουργία διαισθητικών και ευέλικτων web εφαρμογών με σύγχρονες τεχνολογίες και βέλτιστες πρακτικές."
+      },
+      "mobile": {
+        "category": "Mobile Ανάπτυξη",
+        "title": "Cross-platform λύσεις.",
+        "description": "Ανάπτυξη απρόσκοπτων mobile εμπειριών που λειτουργούν σε όλες τις συσκευές και πλατφόρμες."
+      },
+      "design": {
+        "category": "UI/UX Σχεδιασμός",
+        "title": "Όμορφες διεπαφές.",
+        "description": "Σχεδιασμός διεπαφών με επίκεντρο τον χρήστη που συνδυάζουν αισθητική και λειτουργικότητα."
+      },
+      "opensource": {
+        "category": "Open Source",
+        "title": "Συνεισφορά στην κοινότητα.",
+        "description": "Ενεργή συμμετοχή και συνεισφορά σε έργα ανοιχτού κώδικα που κάνουν τη διαφορά."
+      }
+    }
+  },
+  "projects": {
+    "title": "Επιλεγμένα Έργα",
+    "description": "Δημιουργώ όμορφα προϊόντα με τις πιο σύγχρονες τεχνολογίες και frameworks. Είμαι ένας παθιασμένος προγραμματιστής που αγαπά να δημιουργεί καταπληκτικά προϊόντα.",
+    "items": {
+      "project1": {
+        "title": "AI Βοηθός Κώδικα",
+        "description": "Ένας έξυπνος βοηθός προγραμματισμού που χρησιμοποιεί machine learning για να βοηθήσει τους developers",
+        "tech": "Python,TensorFlow,FastAPI",
+        "link": "https://github.com/yourusername/ai-code-assistant",
+        "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=3270&auto=format&fit=crop"
+      },
+      "project2": {
+        "title": "Cloud Dashboard",
+        "description": "Πλατφόρμα παρακολούθησης και διαχείρισης cloud υποδομής σε πραγματικό χρόνο",
+        "tech": "React,Node.js,AWS",
+        "link": "https://github.com/yourusername/cloud-dashboard",
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2944&auto=format&fit=crop"
+      },
+      "project3": {
+        "title": "DevOps Pipeline",
+        "description": "Αυτοματοποιημένο CI/CD pipeline με προηγμένες λειτουργίες παρακολούθησης και deployment",
+        "tech": "Docker,Kubernetes,Jenkins",
+        "link": "https://github.com/yourusername/devops-pipeline",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2934&auto=format&fit=crop"
+      },
+      "project4": {
+        "title": "Smart Analytics",
+        "description": "Πλατφόρμα ανάλυσης δεδομένων με insights βασισμένα σε machine learning",
+        "tech": "Next.js,Python,PostgreSQL",
+        "link": "https://github.com/yourusername/smart-analytics",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=3270&auto=format&fit=crop"
+      },
+      "project5": {
+        "title": "AI Image Generator",
+        "description": "Προηγμένη πλατφόρμα δημιουργίας εικόνων με χρήση stable diffusion και deep learning",
+        "tech": "PyTorch,FastAPI,React",
+        "link": "https://github.com/yourusername/ai-image-generator",
+        "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?q=80&w=3270&auto=format&fit=crop"
+      },
+      "project6": {
+        "title": "Blockchain Explorer",
+        "description": "Explorer blockchain δεδομένων σε πραγματικό χρόνο με προηγμένα analytics",
+        "tech": "Web3.js,Next.js,GraphQL",
+        "link": "https://github.com/yourusername/blockchain-explorer",
+        "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=3270&auto=format&fit=crop"
+      }
+    }
+  },
+  "blog": {
+    "title": "Τελευταία Άρθρα",
+    "description": "Σκέψεις, οδηγοί και γνώσεις για την ανάπτυξη λογισμικού",
+    "readMore": "Διαβάστε Περισσότερα",
+    "posts": {
+      "post1": {
+        "title": "Δημιουργία Σύγχρονων Web Εφαρμογών",
+        "description": "Μάθετε πώς να δημιουργείτε κλιμακώσιμες και συντηρήσιμες web εφαρμογές χρησιμοποιώντας τις τελευταίες τεχνολογίες και βέλτιστες πρακτικές.",
+        "date": "15 Μαρτίου 2024",
+        "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2069&auto=format&fit=crop",
+        "link": "/blog/modern-web-applications"
+      },
+      "post2": {
+        "title": "Το Μέλλον της AI στην Ανάπτυξη",
+        "description": "Εξερευνώντας πώς η τεχνητή νοημοσύνη μεταμορφώνει τον τρόπο που γράφουμε και συντηρούμε κώδικα.",
+        "date": "10 Μαρτίου 2024",
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop",
+        "link": "/blog/ai-in-development"
+      },
+      "post3": {
+        "title": "Κυριαρχώντας στην TypeScript",
+        "description": "Ένας πλήρης οδηγός για την αποτελεσματική χρήση της TypeScript στα projects σας.",
+        "date": "5 Μαρτίου 2024",
+        "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=2128&auto=format&fit=crop",
+        "link": "/blog/mastering-typescript"
+      }
+    },
+    "profile": {
+      "name": "John Doe",
+      "description": "Full-stack προγραμματιστής με πάθος για τη δημιουργία καινοτόμων λύσεων. Γράφω για web development, AI και βέλτιστες πρακτικές ανάπτυξης λογισμικού.",
+      "image": "/images/profile.jpg",
+      "socials": {
+        "github": "https://github.com/yourusername",
+        "twitter": "https://twitter.com/yourusername",
+        "linkedin": "https://linkedin.com/in/yourusername"
+      }
+    },
+    "keyArticles": "Άρθρα",
+    "categories": {
+      "technology": {
+        "title": "Τεχνολογία",
+        "description": "Εξερευνώντας τις τελευταίες εξελίξεις σε web development, AI και αναδυόμενες τεχνολογικές τάσεις",
+        "color": "bg-emerald-900"
+      },
+      "selfImprovement": {
+        "title": "Προσωπική Ανάπτυξη",
+        "description": "Συμβουλές και γνώσεις για προσωπική και επαγγελματική ανάπτυξη",
+        "color": "bg-black"
+      },
+      "sciFi": {
+        "title": "Επιστημονική Φαντασία",
+        "description": "Όπου η επιστημονική φαντασία συναντά την πραγματικότητα στη σύγχρονη τεχνολογία",
+        "color": "bg-sky-600"
+      }
+    }
+  },
+  "contact": {
+    "title": "Επικοινωνία",
+    "description": "Μη διστάσετε να επικοινωνήσετε για συνεργασίες, ευκαιρίες ή απλά για μια φιλική συζήτηση για την τεχνολογία και την ανάπτυξη.",
+    "form": {
+      "firstName": "Όνομα",
+      "lastName": "Επώνυμο",
+      "email": "Email",
+      "message": "Μήνυμα",
+      "submit": "Αποστολή Μηνύματος",
+      "firstNamePlaceholder": "Γιάννης",
+      "lastNamePlaceholder": "Παπαδόπουλος",
+      "emailPlaceholder": "giannis@example.com",
+      "messagePlaceholder": "Το μήνυμά σας..."
+    },
+    "connect": "Ας Συνδεθούμε",
+    "availability": "Διαθέσιμος για freelance ευκαιρίες και συνεργασίες.",
+    "socials": {
+      "email": {
+        "label": "Email",
+        "link": "mailto:your.email@example.com"
+      },
+      "github": {
+        "label": "GitHub",
+        "link": "https://github.com/yourusername"
+      },
+      "linkedin": {
+        "label": "LinkedIn",
+        "link": "https://linkedin.com/in/yourusername"
+      }
+    }
+  },
+  "footer": {
+    "description": "Προγραμματιστής λογισμικού με πάθος για τη δημιουργία καινοτόμων λύσεων με σύγχρονες τεχνολογίες.",
+    "quickLinks": "Γρήγοροι Σύνδεσμοι",
+    "connect": "Σύνδεση",
+    "rights": "Με επιφύλαξη παντός δικαιώματος.",
+    "links": {
+      "home": "Αρχική",
+      "work": "Έργα",
+      "about": "Σχετικά",
+      "contact": "Επικοινωνία"
+    }
+  },
+  "about": {
+    "title": "Σχετικά με εμένα",
+    "subtitle": "Προγραμματιστής λογισμικού με πάθος για τη δημιουργία καινοτόμων λύσεων με σύγχρονες τεχνολογίες",
+    "profile": {
+      "title": "Ποιος είμαι",
+      "description": "Είμαι προγραμματιστής λογισμικού με εμπειρία στη δημιουργία σύγχρονων web εφαρμογών. Εστιάζω στη δημιουργία κλιμακώσιμων και συντηρήσιμων λύσεων χρησιμοποιώντας τις τελευταίες τεχνολογίες και βέλτιστες πρακτικές."
+    },
+    "skills": {
+      "title": "Δεξιότητες & Τεχνολογίες"
+    },
+    "experience": {
+      "title": "Επαγγελματική Εμπειρία",
+      "job1": {
+        "title": "Senior Software Engineer",
+        "company": "Tech Company",
+        "period": "2020 - Σήμερα",
+        "description": "Ηγούμαι της ανάπτυξης σύγχρονων web εφαρμογών χρησιμοποιώντας React και Node.js. Εφαρμόζω βέλτιστες πρακτικές και καθοδηγώ junior developers."
+      },
+      "job2": {
+        "title": "Software Developer",
+        "company": "Digital Agency",
+        "period": "2018 - 2020",
+        "description": "Ανέπτυξα και συντήρησα πολλαπλά projects πελατών χρησιμοποιώντας διάφορες web τεχνολογίες. Συνεργάστηκα με ομάδες σχεδιασμού και προϊόντων."
+      }
+    }
+  },
+  "technologies": {
+    "title": "Τεχνολογίες",
+    "items": [
+      {
+        "title": "React",
+        "description": "Μια βιβλιοθήκη JavaScript για τη δημιουργία user interfaces."
+      },
+      {
+        "title": "Next.js",
+        "description": "Ένα React framework για τη δημιουργία σύγχρονων web εφαρμογών."
+      },
+      {
+        "title": "TypeScript",
+        "description": "Μια γλώσσα προγραμματισμού που επεκτείνει το JavaScript με στατική τυποποίηση."
+      },
+      {
+        "title": "Node.js",
+        "description": "Ένας runtime JavaScript βασισμένος στο V8 της Chrome."
+      },
+      {
+        "title": "Tailwind CSS",
+        "description": "Ένα utility-first CSS framework για γρήγορη δημιουργία προσαρμοσμένων σχεδίων."
+      },
+      {
+        "title": "GraphQL",
+        "description": "Μια γλώσσα ερωτημάτων για το API σας."
+      }
+    ]
+  }
+}

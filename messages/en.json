@@ -1,0 +1,324 @@
+{
+  "hero": {
+    "highlight": "Software Developer",
+    "text": "with experience in modern applications & interfaces",
+    "button": "Contact me",
+    "secondaryButton": "View Services",
+    "githubButton": "View GitHub"
+  },
+  "nav": {
+    "search": "Search",
+    "cart": "Cart",
+    "login": "Login",
+    "theme": "Toggle theme",
+    "cartEmpty": "Your cart is empty",
+    "menu": {
+      "home": "Home",
+      "work": "Work",
+      "about": "About",
+      "contact": "Contact",
+      "projectsLabel": "Projects",
+      "pricingLabel": "Pricing",
+      "blog": {
+        "title": "Blog",
+        "latest": "Latest Posts",
+        "categories": "Categories",
+        "archive": "Archive",
+        "featured": {
+          "webdev": {
+            "title": "Modern Web Development",
+            "description": "Learn about the latest trends and best practices in web development",
+            "link": "/blog/modern-web-development",
+            "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2069&auto=format&fit=crop"
+          },
+          "ai": {
+            "title": "AI in Practice",
+            "description": "Real-world applications of AI in modern software development",
+            "link": "/blog/ai-in-practice",
+            "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop"
+          },
+          "typescript": {
+            "title": "TypeScript Deep Dive",
+            "description": "Advanced TypeScript patterns and techniques for better code",
+            "link": "/blog/typescript-deep-dive",
+            "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=2128&auto=format&fit=crop"
+          }
+        }
+      },
+      "projects": {
+        "algochurn": {
+          "title": "Algochurn",
+          "description": "Prepare for tech interviews like never before."
+        },
+        "tailwind": {
+          "title": "Tailwind Master Kit",
+          "description": "Production ready Tailwind css components for your next project"
+        },
+        "moonbeam": {
+          "title": "Moonbeam",
+          "description": "Never write from scratch again. Go from idea to blog in minutes."
+        },
+        "rogue": {
+          "title": "Rogue",
+          "description": "Respond to government RFPs, RFIs and RFQs 10x faster using AI"
+        }
+      },
+      "pricing": {
+        "hobby": "Hobby",
+        "individual": "Individual",
+        "team": "Team",
+        "enterprise": "Enterprise"
+      }
+    },
+    "switchLanguage": "Switch language",
+    "menuDescription": "Access navigation options"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, we couldn't find the page you're looking for. Please check the URL or go back to the homepage.",
+    "backHome": "Back to Home"
+  },
+  "error": {
+    "title": "Something went wrong!",
+    "description": "An error occurred while processing your request. Please try again later.",
+    "tryAgain": "Try Again"
+  },
+  "work": {
+    "title": "My Services",
+    "cards": {
+      "moreAboutMe": "More About Me",
+      "ai": {
+        "category": "Artificial Intelligence",
+        "title": "You can do more with AI.",
+        "description": "Exploring the boundaries of AI integration in modern web applications, focusing on user experience and practical implementations."
+      },
+      "productivity": {
+        "category": "Productivity",
+        "title": "Enhance your workflow.",
+        "description": "Building tools and applications that streamline processes and boost productivity in development environments."
+      },
+      "product": {
+        "category": "Product Development",
+        "title": "Crafting digital experiences.",
+        "description": "Creating intuitive and responsive web applications with modern technologies and best practices."
+      },
+      "mobile": {
+        "category": "Mobile Development",
+        "title": "Cross-platform solutions.",
+        "description": "Developing seamless mobile experiences that work across all devices and platforms."
+      },
+      "design": {
+        "category": "UI/UX Design",
+        "title": "Beautiful interfaces.",
+        "description": "Designing user-centric interfaces that combine aesthetics with functionality."
+      },
+      "opensource": {
+        "category": "Open Source",
+        "title": "Contributing to community.",
+        "description": "Actively participating in and contributing to open source projects that make a difference."
+      }
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "description": "I build beautiful products with the latest technologies and frameworks. I'm a passionate developer that loves to build amazing products.",
+    "items": {
+      "project1": {
+        "title": "AI Code Assistant",
+        "description": "An intelligent coding assistant powered by machine learning to help developers write better code faster",
+        "tech": "Python,TensorFlow,FastAPI",
+        "link": "https://github.com/yourusername/ai-code-assistant",
+        "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=3270&auto=format&fit=crop"
+      },
+      "project2": {
+        "title": "Cloud Dashboard",
+        "description": "Real-time cloud infrastructure monitoring and management platform",
+        "tech": "React,Node.js,AWS",
+        "link": "https://github.com/yourusername/cloud-dashboard",
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2944&auto=format&fit=crop"
+      },
+      "project3": {
+        "title": "DevOps Pipeline",
+        "description": "Automated CI/CD pipeline with advanced monitoring and deployment features",
+        "tech": "Docker,Kubernetes,Jenkins",
+        "link": "https://github.com/yourusername/devops-pipeline",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2934&auto=format&fit=crop"
+      },
+      "project4": {
+        "title": "Smart Analytics",
+        "description": "Data analytics platform with machine learning-powered insights",
+        "tech": "Next.js,Python,PostgreSQL",
+        "link": "https://github.com/yourusername/smart-analytics",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=3270&auto=format&fit=crop"
+      },
+      "project5": {
+        "title": "AI Image Generator",
+        "description": "Advanced image generation platform using stable diffusion and deep learning",
+        "tech": "PyTorch,FastAPI,React",
+        "link": "https://github.com/yourusername/ai-image-generator",
+        "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?q=80&w=3270&auto=format&fit=crop"
+      },
+      "project6": {
+        "title": "Blockchain Explorer",
+        "description": "Real-time blockchain data explorer with advanced analytics and tracking",
+        "tech": "Web3.js,Next.js,GraphQL",
+        "link": "https://github.com/yourusername/blockchain-explorer",
+        "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=3270&auto=format&fit=crop"
+      }
+    }
+  },
+  "blog": {
+    "title": "Latest Articles",
+    "description": "Thoughts, tutorials, and insights about software development",
+    "readMore": "Read More",
+    "posts": {
+      "post1": {
+        "title": "Building Modern Web Applications",
+        "description": "Learn how to build scalable and maintainable web applications using the latest technologies and best practices.",
+        "date": "March 15, 2024",
+        "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2069&auto=format&fit=crop",
+        "link": "/blog/modern-web-applications"
+      },
+      "post2": {
+        "title": "The Future of AI in Development",
+        "description": "Exploring how artificial intelligence is transforming the way we write and maintain code.",
+        "date": "March 10, 2024",
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop",
+        "link": "/blog/ai-in-development"
+      },
+      "post3": {
+        "title": "Mastering TypeScript",
+        "description": "A comprehensive guide to using TypeScript effectively in your projects.",
+        "date": "March 5, 2024",
+        "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=2128&auto=format&fit=crop",
+        "link": "/blog/mastering-typescript"
+      }
+    },
+    "profile": {
+      "name": "John Doe",
+      "description": "Full-stack developer passionate about creating innovative solutions. I write about web development, AI, and software engineering best practices.",
+      "image": "/images/profile.jpg",
+      "socials": {
+        "github": "https://github.com/yourusername",
+        "twitter": "https://twitter.com/yourusername",
+        "linkedin": "https://linkedin.com/in/yourusername"
+      }
+    },
+    "keyArticles": "Articles",
+    "categories": {
+      "technology": {
+        "title": "Technology",
+        "description": "Exploring the latest in web development, AI, and emerging tech trends",
+        "color": "bg-emerald-900"
+      },
+      "selfImprovement": {
+        "title": "Self Improvement",
+        "description": "Tips and insights for personal growth and professional development",
+        "color": "bg-black"
+      },
+      "sciFi": {
+        "title": "Sci-Fi Tech",
+        "description": "Where science fiction meets reality in modern technology",
+        "color": "bg-sky-600"
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Feel free to reach out for collaborations, opportunities, or just a friendly chat about technology and development.",
+    "form": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message",
+      "firstNamePlaceholder": "John",
+      "lastNamePlaceholder": "Doe",
+      "emailPlaceholder": "john@example.com",
+      "messagePlaceholder": "Your message..."
+    },
+    "connect": "Let's Connect",
+    "availability": "Available for freelance opportunities and collaborations.",
+    "socials": {
+      "email": {
+        "label": "Email",
+        "link": "mailto:your.email@example.com"
+      },
+      "github": {
+        "label": "GitHub",
+        "link": "https://github.com/yourusername"
+      },
+      "linkedin": {
+        "label": "LinkedIn",
+        "link": "https://linkedin.com/in/yourusername"
+      }
+    }
+  },
+  "footer": {
+    "description": "Software developer passionate about creating innovative solutions with modern technologies.",
+    "quickLinks": "Quick Links",
+    "connect": "Connect",
+    "rights": "All rights reserved.",
+    "links": {
+      "home": "Home",
+      "work": "Work",
+      "about": "About",
+      "contact": "Contact"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Software developer passionate about creating innovative solutions with modern technologies",
+    "profile": {
+      "title": "Who I Am",
+      "description": "I'm a software developer with experience in building modern web applications. I focus on creating scalable and maintainable solutions using the latest technologies and best practices."
+    },
+    "skills": {
+      "title": "Skills & Technologies"
+    },
+    "experience": {
+      "title": "Work Experience",
+      "job1": {
+        "title": "Senior Software Engineer",
+        "company": "Tech Company",
+        "period": "2020 - Present",
+        "description": "Leading development of modern web applications using React and Node.js. Implementing best practices and mentoring junior developers."
+      },
+      "job2": {
+        "title": "Software Developer",
+        "company": "Digital Agency",
+        "period": "2018 - 2020",
+        "description": "Developed and maintained multiple client projects using various web technologies. Collaborated with design and product teams."
+      }
+    }
+  },
+  "technologies": {
+    "title": "Technologies",
+    "items": [
+      {
+        "title": "React",
+        "description": "A JavaScript library for building user interfaces."
+      },
+      {
+        "title": "Next.js",
+        "description": "A React framework for building modern web applications."
+      },
+      {
+        "title": "TypeScript",
+        "description": "A strongly typed programming language that builds on JavaScript."
+      },
+      {
+        "title": "Node.js",
+        "description": "A JavaScript runtime built on Chrome's V8 JavaScript engine."
+      },
+      {
+        "title": "Tailwind CSS",
+        "description": "A utility-first CSS framework for rapidly building custom designs."
+      },
+      {
+        "title": "GraphQL",
+        "description": "A query language for your API."
+      }
+    ]
+  }
+}
