@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { BaseLayout } from "@/components/layouts/base-layout";
 import { unstable_setRequestLocale } from "next-intl/server";
+import { locales, type Locale } from "@/i18n/config";
 
 type Props = {
   children: React.ReactNode;
@@ -9,14 +10,14 @@ type Props = {
 };
 
 export function generateStaticParams() {
-  return [{ locale: "en" }, { locale: "el" }];
+  return locales.map((locale) => ({ locale }));
 }
 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
 
   // Validate that the incoming `locale` parameter is valid
-  const isValidLocale = ["en", "el"].includes(locale);
+  const isValidLocale = locales.includes(locale as Locale);
   if (!isValidLocale) notFound();
 
   // Enable static rendering
