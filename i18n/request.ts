@@ -1,11 +1,14 @@
 import { getRequestConfig } from "next-intl/server";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 const locales = ["en", "el"];
 
-export default getRequestConfig(async () => {
+export default getRequestConfig(async ({ locale }) => {
+  // Enable static rendering
+  unstable_setRequestLocale(locale);
+
   return {
-    locale: locales[0],
-    messages: (await import(`../messages/${locales[0]}.json`)).default,
+    messages: (await import(`../messages/${locale}.json`)).default,
     defaultLocale: locales[0],
     locales,
   };

@@ -1,6 +1,7 @@
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { BaseLayout } from "@/components/layouts/base-layout";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 type Props = {
   children: React.ReactNode;
@@ -17,6 +18,9 @@ export default async function LocaleLayout({ children, params }: Props) {
   // Validate that the incoming `locale` parameter is valid
   const isValidLocale = ["en", "el"].includes(locale);
   if (!isValidLocale) notFound();
+
+  // Enable static rendering
+  unstable_setRequestLocale(locale);
 
   let messages;
   try {
